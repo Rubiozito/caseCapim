@@ -4,6 +4,37 @@ Análise e modelagem de risco de crédito com base em dados de contratos e parce
 
 ---
 
+## Instalação
+
+### Pré-requisitos
+
+- Python 3.8+
+- pip
+
+### Configuração do ambiente
+
+```bash
+# Clone o repositório
+git clone https://github.com/Rubiozito/caseCapim.git
+cd caseCapim
+
+# (Recomendado) Crie e ative um ambiente virtual
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+
+# Instale as dependências
+pip install pandas numpy matplotlib scikit-learn openpyxl
+```
+
+Após a instalação, abra o notebook `case_capim.ipynb` no VS Code ou Jupyter e execute as células em ordem.
+
+---
+
 ## Estrutura do Projeto
 
 ```
